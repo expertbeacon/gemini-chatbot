@@ -1,28 +1,21 @@
 <footer>
-  <p mt-8 text-xs op-30>
-    <a
-      b-slate-link
-      href="https://www.chatgemini.net/" target="_blank"
-    >
-      Chat Gemini
-    </a>
-    <span px-1>|</span>
-    <a
-      b-slate-link
-      href="mailto:hello@chatgemini.net" target="_blank"
-    >
-      hello@chatgemini.net
-    </a>
-    {import.meta.env.PARTNER_LINK && import.meta.env.PARTNER_LINK_TITLE && (
-      <>
-        <span px-1>|</span>
-        <a
-          b-slate-link
-          href={import.meta.env.PARTNER_LINK} target="_blank"
-        >
-          {import.meta.env.PARTNER_LINK_TITLE}
-        </a>
-      </>
-    )}
-  </p>
+  <div class="max-w-[80vw] mx-auto flex flex-col items-center justify-center mb-[1em]">
+    <div class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
+    
+          <a b-slate-link href="https://blog.chatgemini.net/" target="_blank">Blog</a>
+          <span class="px-1">|</span>
+          <a b-slate-link href="https://blog.chatgemini.net/contact/" target="_blank">Contact</a>
+          <span class="px-1">|</span>
+          <a b-slate-link href="https://github.com/expertbeacon/gemini-chatbot" target="_blank">Github</a>  
+    </div>
+    <p class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
+      © 2023&nbsp;<a href="https://geminiprochat.com" target="_blank" class="font-bold">Gemini Pro Chat</a>. All rights reserved.
+    </p>
+
+    <div class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
+      <a href="https://blog.chatgemini.net/privacy-policy/" target="_blank">Privacy Policy</a>
+          <span class="px-1">|</span>
+          <a href="https://blog.chatgemini.net/terms-of-service/" target="_blank">Terms of Service</a>   
+    </div>
+  </div>
 </footer>
