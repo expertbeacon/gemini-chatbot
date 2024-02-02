@@ -86,3 +86,8 @@ Learn more,
 
 [Chat Gemini Blog](https://blog.chatgemini.net)
 
+Thanks to,
+[GPTs App](https://www.gptsapp.io/)
+
+
+
